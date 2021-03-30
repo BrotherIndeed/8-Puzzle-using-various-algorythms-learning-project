@@ -17,7 +17,7 @@ Target algorithms include :-
   stochastic search algorithm 
   evolutionary search algorithm
   
-  these algorythms will be used to solve more complex puzzles and to deepen my understanding.
+  These algorythms will be used to solve more complex puzzles and to deepen my understanding.
   
   Contributors :-
   Hassan Shafqat,

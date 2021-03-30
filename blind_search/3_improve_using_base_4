@@ -23,7 +23,7 @@ int main()
     int method;
     int result[3][3] =  { {2, 8, 3}
                         , {1, 6, 4}
-                        , {5, 0, 7} 
+                        , {5, 7, 0} 
                         };
                      
     int original[3][3] ={ {1, 2, 3}
@@ -99,7 +99,7 @@ copy(&original[0][0], &original[0][0]+3*3,&ary[0][0]);
                                        result[2][0] == ary [2][0] && result[2][1] == ary [2][1] && result[2][2] == ary [2][2] ) 
                                        {
                                            printf("\nSuccess!! solution was found:\n\n");
-                                           solve(x, original);// This only prints the path to final state. 
+                                           solve(convert(x), original);// This only prints the path to final state. 
                                            return 0;
                                        }
                                 
@@ -186,10 +186,9 @@ int right(int ary[3][3])
 
 }
 
-int solve(int x, int original[3][3])
+int solve(int m, int original[3][3])
 {
-    int m,n,i,j, ary[3][3];
-    m=convert(x);
+    int n,i,j, ary[3][3];
     copy(&original[0][0], &original[0][0]+3*3,&ary[0][0]);
                     while(m>0)
                         {

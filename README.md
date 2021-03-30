@@ -20,5 +20,5 @@ Target algorithms include :-
   these algorythms will be used to solve more complex puzzles and to deepen my understanding.
   
   Contributors :-
-  Hassan Shafqat
+  Hassan Shafqat,
   Aditya Kotwal

@@ -7,18 +7,18 @@ Target algorithms include :-
 Forward and backward                                                          
 state-space search algorithm                                                                    
 blind search algorithm                                                        
-heuristic search algorithm                                                              
-problem-reduction search algorithm                                                      
-A search algorithm 
-A* search algorithm 
-AO* search algorithm 
-minimax search algorithm 
-constraint propagation search algorithm 
-stochastic search algorithm 
-evolutionary search algorithm
-  
-  These algorythms will be used to solve more complex puzzles and to deepen my understanding.
-  
-  Contributors :-
-  Hassan Shafqat,
-  Aditya Kotwal
+heuristic search algorithm                                                                
+problem-reduction search algorithm                                                        
+A search algorithm                                                                        
+A* search algorithm                                                                     
+AO* search algorithm                                                                        
+minimax search algorithm                                                                    
+constraint propagation search algorithm                                                       
+stochastic search algorithm                                                                     
+evolutionary search algorithm                                                                     
+                                                                                                                    
+  These algorythms will be used to solve more complex puzzles and to deepen my understanding.                                         
+                                                                                
+  Contributors :-                                                                                           
+  Hassan Shafqat                                                       
+  Aditya Kotwal                                                                                                 

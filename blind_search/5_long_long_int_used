@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <cmath>
+#include <unistd.h>
 
 using namespace std;
 
@@ -199,9 +200,10 @@ int solve(long long int m, int original[3][3])
                             n=m%10;
                             m=m/10;
                             
+                            sleep(3);
+                            printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                             print_matrix(ary);
-                            
-                            printf("\n");
+                           printf("\n");
                                 if(n==0)
                                     {up(ary);
                                     printf("up  \n");}
@@ -214,11 +216,11 @@ int solve(long long int m, int original[3][3])
                                 if(n==3)
                                     {right(ary);
                                     printf("right  \n");}
-                                    
-    
-                            
+                                     printf("\n");
+                            print_matrix(ary);
                             printf("\n");
                         }
+                        
                 print_matrix(ary);
     return 0;
 }
